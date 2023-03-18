@@ -49,3 +49,13 @@ section p{
 body{
     font-family: 'Shantell Sans', cursive;
 }
+p{
+    font-weight: 100px; 
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    text-transform: uppercase; 
+}
+a{
+    /* quitar decoracion del subrallado */
+    text-decoration: none;
+}

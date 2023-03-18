@@ -1,0 +1,51 @@
+/* Hoja de estilos 
+    por etiquetas [section]
+    etiquetas semanticas [body]
+    herencia [body p]
+    multiple [*]
+    por id [#]
+    por clase [.]
+*/
+h1{
+    color: #2bd9fe;
+    /* e veces su tamaño en pantalla */
+    font-size: 3em;
+    /*espaciado de letras */
+    letter-spacing: 5px; 
+    /*espaciado entre palabras*/
+    word-spacing: 10px;
+    font-family: tor;
+}
+/* por etiquetas */
+h2{
+    color: #69995D;
+    background-color: salmon;
+    text-align: center; 
+} 
+header{
+    color: rgb(213, 219, 35);
+    background-color: #388659;
+    text-align: center;
+}
+/* por etiquetas semanticas */
+section{
+    color:#02120d;
+    background-color: #89DFC5;
+    text-align: center;
+}
+aside{
+    color: #0c5942;
+}
+footer{
+    background-color: cadetblue;
+}
+table{
+    align-items: center;
+}
+/* por herencia */
+section p{
+    color: red;
+}
+body{
+    font-family: 'Shantell Sans', cursive;
+}
